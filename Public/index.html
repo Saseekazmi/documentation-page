@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Python-Docs</title>
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <nav id="navbar" class="nav">
+      <header>
+        <h1>Python Documentation</h1>
+      </header>
+      <hr />
+      <ul>
+        <a class="nav-link" href="#Introduction">
+          <li>Introduction</li>
+        </a>
+        <a class="nav-link" href="#Features">
+          <li>Features</li>
+        </a>
+        <a class="nav-link" href="#First_Program">
+          <li>First Program</li>
+        </a>
+        <a class="nav-link" href="#Variables_and_Literals">
+          <li>Variables and Literals</li>
+        </a>
+        <a class="nav-link" href="#Operators" rel="internal">
+          <li>Operators</li>
+        </a>
+        <a class="nav-link" href="#Comments" rel="internal">
+          <li>Comments</li>
+        </a>
+        <a class="nav-link" href="#Python Control Flow" rel="internal">
+          <li>Python Control Flow</li>
+        </a>
+        <a class="nav-link" href="#Python Function" rel="internal">
+          <li>Python Function</li>
+        </a>
+        <a class="nav-link" href="#Reference" rel="internal">
+          <li>Reference</li>
+        </a>
+      </ul>
+    </nav>
+
+    <main id="main-doc" class="contents">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h2>Introduction</h2>
+        </header>
+        <hr />
+        <article>
+          <p>
+            Python was developed by Guido van Rossum in the late eighties and early nineties at the
+            National Research Institute for Mathematics and Computer Science in the Netherlands. It
+            is derived from many other languages, including ABC, Modula-3, C, C++, ALGOL-68,
+            SmallTalk, and Unix shell and other scripting languages.Now it is maintained by a core
+            development team at the institute, although Guido van Rossum still holds a vital role in
+            directing its progress.
+          </p>
+
+          <p>
+            Python is a high-level, interpreted, interactive and object-oriented scripting language.
+            Python is designed to be highly readable. It uses English keywords frequently where as
+            other languages use punctuation, and it has fewer syntactical constructions than other
+            languages.
+          </p>
+        </article>
+      </section>
+
+      <section id="Features" class="main-section">
+        <header>
+          <h2>Features</h2>
+        </header>
+        <hr />
+        <article>
+          <ul>
+            <li>
+              <strong>Easy-to-learn:</strong> Python has relatively few keywords, simple structure
+              and a clearly defined syntax. This allows the student to pick up the language in a
+              relatively short period of time.
+            </li>
+
+            <li>
+              <strong>Easy-to-maintain:</strong> Python's success is that its source code is fairly
+              easy-to-maintain.
+            </li>
+
+            <li>
+              <strong>A broad standard library:</strong> One of Python's greatest strengths is the
+              bulk of the library is very portable and cross-platform compatible on UNIX, Windows
+              and Macintosh
+            </li>
+
+            <li>
+              <strong>Interactive Mode:</strong> Support for an interactive mode in which you can
+              enter results from a terminal right to the language, allowing interactive testing and
+              debugging of snippets of code.
+            </li>
+
+            <li>
+              <strong>Portable:</strong> Python can run on a wide variety of hardware platforms and
+              has the same interface on all platforms.
+            </li>
+
+            <li>
+              <strong>Databases:</strong> Python provides interfaces to all major commercial
+              databases.
+            </li>
+
+            <li>
+              <strong>Expandable:</strong> You can add low-level modules to the Python interpreter.
+              These modules enable programmers to add to or customize their tools to be more
+              efficient.
+            </li>
+
+            <li>
+              <strong>GUI Programming:</strong> Python supports GUI applications that can be created
+              and ported to many system calls, libraries and windows systems, such as Windows MFC,
+              Macintosh and the X Window system of Unix.
+            </li>
+            <li>
+              <strong>Scalable:</strong>Python provides a better structure and support for large
+              programs than shell scripting.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="First_Program" class="main-section">
+        <header>
+          <h2>First Program</h2>
+        </header>
+        <hr />
+        <article>
+          <p>
+            Let's write our first Python program, "Hello, World!". It's a simple program that prints
+            Hello World! on the standard output device (screen).
+          </p>
+          <pre><code>print("Hello, World!")</code></pre>
+          <p>When you run the program, the output will be:</p>
+          <pre><code>Hello, World!</code></pre>
+          <p>
+            In this program, we have used the built-in print() function to print Hello, world!
+            string.
+          </p>
+        </article>
+      </section>
+
+      <section id="Variables_and_Literals" class="main-section">
+        <header>
+          <h2>Variables and Literals</h2>
+        </header>
+        <hr />
+        <article>
+          <p>A variable is a named location used to store data in the memory. Here's an example:</p>
+          <pre><code>a = 5</code></pre>
+          <p>Here, a is a variable. We have assigned 5 to variable a</p>
+          <p>We do not need to define variable type in Python. You can do something like this:</p>
+          <pre><code>a = 5
+print("a =", 5)
+a = "High five"
+print("a =", a)</code></pre>
+          <p>
+            Initially, integer value 5 is assigned to the variable a. Then, the string High five is
+            assigned to the same variable. By the way, 5 is a numeric literal and "High five" is a
+            string literal. When you run the program, the output will be:
+          </p>
+          <pre><code>a = 5
+a = High five</code></pre>
+        </article>
+      </section>
+
+      <section id="Operators" class="main-section">
+        <header>
+          <h2>Operators</h2>
+        </header>
+        <hr />
+        <article>
+          <p>
+            Operators are special symbols that carry out operations on operands (variables and
+            values).Let's talk about arithmetic and assignment operators in this part.
+          </p>
+          <p>
+            Arithmetic operators are used to perform mathematical operations like addition,
+            subtraction, multiplication etc.
+          </p>
+          <pre><code>x = 14
+y = 4
+
+# Add two operands
+print('x + y =', x+y) # Output: x + y = 18
+
+# Subtract right operand from the left
+print('x - y =', x-y) # Output: x - y = 10
+
+# Multiply two operands
+print('x * y =', x*y) # Output: x * y = 56
+
+# Divide left operand by the right one 
+print('x / y =', x/y) # Output: x / y = 3.5
+
+# Floor division (quotient)
+print('x // y =', x//y) # Output: x // y = 3
+
+# Remainder of the division of left operand by the right
+print('x % y =', x%y) # Output: x % y = 2
+
+# Left operand raised to the power of right (x^y)
+print('x ** y =', x**y) # Output: x ** y = 38416</code></pre>
+          <p>
+            Assignment operators are used to assign values to variables. You have already seen the
+            use of = operator. Let's try some more assignment operators.
+          </p>
+          <pre><code>x = 5
+# x += 5 ----> x = x + 5
+x +=5
+print(x) # Output: 10
+
+# x /= 5 ----> x = x / 5
+x /= 5
+print(x) # Output: 2.0</code></pre>
+          <p>Other commonly used assignment operators: -=, *=, %=, //= and **=.</p>
+        </article>
+      </section>
+
+      <section id="Comments" class="main-section">
+        <header>
+          <h2>Comments</h2>
+        </header>
+        <hr />
+        <h3>Single line comment</h3>
+        <article>
+          <p>
+            A hash sign (#) that is not inside a string literal begins a comment. All characters
+            after the # and up to the physical line end are part of the comment and the Python
+            interpreter ignores them.
+          </p>
+          <pre><code># Here you should write comments
+print 'Hello, Python'   
+#This line is skipped by interpreter because it is after hash sign
+        </code></pre>
+        </article>
+        <h3>Multi line comment</h3>
+        <article>
+          <p>
+            “““ or ''' are used to write multi line comments if they are not inside a string
+            literal.
+          </p>
+          <pre><code>'''
+This is a multi line
+comment
+'''
+</code></pre>
+          <pre> <code>“““
+This is a multi line
+comment
+“““
+</code></pre>
+        </article>
+      </section>
+      <section id="Python Control Flow" class="main-section">
+        <header>
+          <h2>Python Control Flow</h2>
+        </header>
+        <hr />
+        <h3>if...else Statement</h3>
+        <article>
+          <p>
+            The if...else statement is used if you want perform different action (run different
+            code) on different condition. For example:
+          </p>
+          <pre><code>num = -1
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+
+# Output: Negative number</code></pre>
+          <p>
+            There can be zero or more elif parts, and the else part is optional.Most programming
+            languages use {} to specify the block of code. Python uses indentation.A code block
+            starts with indentation and ends with the first unindented line. The amount of
+            indentation is up to you, but it must be consistent throughout that block.
+          </p>
+        </article>
+        <h3>while Loop</h3>
+        <article>
+          <p>
+            Like most programming languages, while loop is used to iterate over a block of code as
+            long as the test expression (condition) is true. Here is an example to find the sum of
+            natural numbers:
+          </p>
+          <pre><code>n = 100
+
+# initialize sum and counter
+sum = 0
+i = 1
+
+while i < n:
+    sum = sum + i
+    i = i+1    # update counter
+
+print("The sum is", sum)
+
+# Output: The sum is 5050</code></pre>
+        </article>
+        <h3>for loop</h3>
+        <article>
+          <p>
+            In Python, for loop is used to iterate over a sequence (list, tuple, string) or other
+            iterable objects. Iterating over a sequence is called traversal.Here's an example to
+            find the sum of all numbers stored in a list.
+          </p>
+          <pre><code>numbers = [6, 5, 3, 8, 4, 2]
+sum = 0
+
+# iterate over the list
+for val in numbers:
+  sum = sum+val
+
+print("The sum is", sum) # Output: The sum is 28</code></pre>
+
+          <p>
+            Notice the use of in operator in the above example. The in operator returns True if
+            value/variable is found in the sequence. In Python, for loop can have optional else
+            block. The else part is executed if the items in the sequence used in for loop exhausts.
+            However, if the loop is terminated with break statement, Python interpreter ignores the
+            else block.
+          </p>
+        </article>
+      </section>
+
+      <section id="Python Function" class="main-section">
+        <header>
+          <h2>Python Function</h2>
+        </header>
+        <hr />
+        <article>
+          <p>
+            A function is a group of related statements that perform a specific task. You use def
+            keyword to create functions in Python.
+          </p>
+          <pre><code>def print_lines():
+  print("I am line1.")
+  print("I am line2.")</code></pre>
+          <p>You have to call the function to run the codes inside it. Here's how:</p>
+          <pre><code>print_lines()</code></pre>
+          <p>A function can accept arguments.</p>
+          <pre><code>def add_numbers(a, b):
+  sum = a + b
+  print(sum)
+
+add_numbers(4, 5)
+
+# Output: 9</code></pre>
+          <p>
+            In Python, you can define functions without a name. These functions are called lambda or
+            anonymous function. To create a lambda function, lambda keyword is used.
+          </p>
+          <pre><code>square = lambda x: x ** 2
+print(square(5))
+
+# Output: 25</code></pre>
+          <p>
+            We use lambda functions when we require a nameless function for a short period of time.
+            Lambda functions are used along with built-in functions like filter(), map() etc.
+          </p>
+        </article>
+      </section>
+
+      <section id="Reference" class="main-section">
+        <header>
+          <h2>Reference</h2>
+        </header>
+        <hr />
+        <article>
+          <p>
+            This documentation page content is taken out from
+            <a href="https://docs.python.org/3">python.org</a> website ,you can refer it if you have
+            any doubts.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
