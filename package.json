@@ -1,0 +1,19 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saseekazmi/documentation-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saseekazmi/documentation-page/issues"
+  },
+  "homepage": "https://github.com/Saseekazmi/documentation-page#readme"
+}
